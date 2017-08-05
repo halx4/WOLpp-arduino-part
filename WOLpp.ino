@@ -1,9 +1,9 @@
 #include "WOLpp.h"
 #include "PersonalInfo.h"
 //------ CONSTANTS ----------------------------
-const uint8_t LED_PIN=D0;
-const uint8_t PWR_SWITCH_PIN=D6;
-const uint8_t RST_SWITCH_PIN=D5;
+const uint8_t LED_PIN=D1;
+const uint8_t PWR_SWITCH_PIN=D5;
+const uint8_t RST_SWITCH_PIN=D6;
 
 const unsigned long CHECK_FOR_CMD_INTERVAL=5000; //ms
 const unsigned long UPDATE_INDICATIONS_INTERVAL=10000; //ms
